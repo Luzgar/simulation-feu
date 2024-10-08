@@ -1,0 +1,6 @@
+{
+  "gridHeight": 10,
+  "gridWidth": 10,
+  "propagationProbability": 0.5,
+  "fireStartPosition": [[5, 5]]
+}

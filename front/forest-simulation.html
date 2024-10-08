@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation Feu de Forêt</title>
+    <style>
+        #forest {
+            display: grid;
+            gap: 2px;
+        }
+        .cell {
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+        }
+        .wood {
+            background-color: green;
+        }
+        .burning {
+            background-color: red;
+        }
+        .ash {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <span>Mode local</span>
+    <input type="checkbox" id="isLocal"></input>
+
+    <button onclick="startSimulation()">Démarrer la simulation</button>
+
+    <div id="forest"></div>
+
+    <script src="forest-simulation.js"></script>
+</body>
+</html>
